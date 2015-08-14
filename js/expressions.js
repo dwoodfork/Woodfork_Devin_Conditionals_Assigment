@@ -39,4 +39,4 @@ console.log("Hi " + myFirstName + ", " + (firstNumber * secondNumber ) + " is th
 console.log("Hi " + myFirstName + ",  " + ((firstNumber * secondNumber) * thirdNumber + (firstNumber * secondNumber)) + " is the total amount of your order including taxes!");
 console.log(myFirstName + "," +" both the total before and after taxes are displayed" + " " +  allSolutions + "!");
 console.log("The array of your first number which is, " + firstNumber + " " + " " + "in the  multiples of: 1,2,3,4,5,6 is as follows:" + " " + array );
-console.log(((thirdNumber / 2 )+ thirdNumber) +  " " + "is the price if you have the 50% discount coupon. Must show to cahsier!");
+console.log((thirdNumber / 2 ) +  " " + "is the price off the original price before taxes. You must show to cahsier!");
