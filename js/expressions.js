@@ -3,6 +3,7 @@
  */
 /*
     Devin M. Woodfork
+    8/13/15
     SDI 1508
     Expressions Assignment
  */
@@ -39,4 +40,4 @@ console.log("Hi " + myFirstName + ", " + (firstNumber * secondNumber ) + " is th
 console.log("Hi " + myFirstName + ",  " + ((firstNumber * secondNumber) * thirdNumber + (firstNumber * secondNumber)) + " is the total amount of your order including taxes!");
 console.log(myFirstName + "," +" both the total before and after taxes are displayed" + " " +  allSolutions + "!");
 console.log("The array of your first number which is, " + firstNumber + " " + " " + "in the  multiples of: 1,2,3,4,5,6 is as follows:" + " " + array );
-console.log((thirdNumber / 2 ) +  " " + "is the price off the original price before taxes. You must show to cahsier!");
+console.log((firstNumber / 2 ) +  " " + "is the price off the original price before taxes. You must show to cahsier!");
