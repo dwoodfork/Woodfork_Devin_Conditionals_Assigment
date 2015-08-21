@@ -12,8 +12,8 @@ var age = prompt("Enter your age!"); // get user's age
 var num1 = prompt("Enter the first number >= 1"); // get user's first number for operation
 var num2 = prompt("Enter the second number >= 1"); // get user's second number for operation
 var operation = prompt("Enter the plus (+) or minus (-) sign for your operator"); // get the user's choice of operator
-var correct = confirm ("Is the number you entered correct, " + num1 + ", " + num2 + "?"); // confirm user's numbers
-var correct2 = confirm ("Is this your name & age, " + name + " &" + age); //confirm user's name and age
+var correct = confirm ("Are the numbers you entered: " + num1 + ", " + num2 + " correct?"); // confirm user's numbers
+var correct2 = confirm ("Is your name & age: " + name + " & " + age + " ?"); //confirm user's name and age
 
 
 //the logic for the calculator
@@ -43,7 +43,7 @@ var correct2 = confirm ("Is this your name & age, " + name + " &" + age); //conf
 
     }
 
-    else if ((operation != "+" || "-") || (correct == false) || (num1 < 1) || (num2 < 1))
+    else if ((operation != "+" || "-") || (correct == false) || (correct2 == false) || (num1 < 1) || (num2 < 1))
  // runs if the operation entered is not + or -, the user's information is not correct or the numbers are less than 1
  {
 
